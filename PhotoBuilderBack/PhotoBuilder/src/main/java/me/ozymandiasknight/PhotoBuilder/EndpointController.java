@@ -168,9 +168,5 @@ public class EndpointController {
     	
     	return ResponseEntity.ok(response);
     }
-    @PostMapping("api/postmake")
-    public ResponseEntity<?> get_Profile() {
-    	
-    }
     
 }
