@@ -1,0 +1,58 @@
+.head_band {
+  display: flex;
+  justify-content: center;
+  background-color: var(--c-fg);
+  height: auto;
+  border-bottom: var(--border);
+}
+
+.head_band > nav {
+  width: 100%;
+  height: 75px;
+}
+
+.nav_link {
+  margin: var(--spacing);
+  background-color: transparent;
+  border-radius: var(--border-radius);
+  border: var(--border) var(--c-txt);
+  text-decoration: none;
+  padding: var(--spacing);
+}
+
+.nav_link > h2 {
+  color: var(--c-txt);
+  margin: 0;
+}
+
+.nav_link > div {
+  position: relative;
+  top: 2px;
+  height: 2px;
+  border-radius: 1px;
+  width: 0%;
+  transition: 0.2s;
+  background-color: var(--c-txt);
+}
+
+.nav_link:hover > div {
+  transition: 0.2s;
+  width: 100%;
+}
+
+.accounts {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}

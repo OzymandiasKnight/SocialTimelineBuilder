@@ -1,0 +1,20 @@
+.panel {
+    background-color: var(--c-txt);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #242424;
+    margin: calc(var(--spacing)*2);
+    box-shadow: var(--shadow);
+}
+
+.panel > * {
+    padding: var(--spacing);
+}
+
+.panel > img {
+    background-size: cover;
+}
+

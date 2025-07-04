@@ -1,0 +1,6 @@
+*
+
+!Dockerfile
+!target/*.jar
+
+!src/main/resources/application.properties

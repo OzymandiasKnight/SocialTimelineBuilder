@@ -1,0 +1,25 @@
+.input {
+    border: var(--border-radius) var(--c-bg);
+    border-radius: var(--border-radius);
+
+}
+
+.input > input {
+    padding: var(--spacing);
+    border-radius: var(--border-radius);
+    border: var(--border) var(--c-bg);
+}
+
+.sign-in {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-in > .panel > h1 {
+  text-decoration: underline;
+}
+
+.date {
+  border: var(--border) var(--c-bg);
+  border-radius: var(--border-radius);
+}
